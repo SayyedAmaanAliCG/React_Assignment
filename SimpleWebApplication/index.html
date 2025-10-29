@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Application</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1>Task Application</h1>
+        <h3>Daily Tasks </h3>
+
+        <button id="addTaskBtn"> + Add Task</button>
+        <div class="table-container">
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Task</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="taskTableBody">
+                    
+                </tbody>
+                
+            </table>
+        </div>
+        <div class="add-task-form">
+            <h3>Add New Task</h3>
+            <div id="errorMessage" class="error-message"></div>
+            <input type="text" id="taskInput" placeholder="Enter task here" required>
+            <select id="statusSelect" required>
+                <option value="Pending">Pending</option>
+                <option value="Completed">Completed</option>
+            </select>
+            <div class="form-btns">
+            <button id="saveTaskBtn">Submit</button>
+            <button id="cancelTaskBtn">X</button>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
