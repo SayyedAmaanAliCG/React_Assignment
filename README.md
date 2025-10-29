@@ -4,7 +4,7 @@ Q1. Create a Simple Web Application
 
 Created a Task Manager with features like add task, edit task and delete task using html, css and javascript.
 
-![Reference Image](https://cygrp-my.sharepoint.com/:i:/g/personal/sayyed_ali_cginfinity_com/EU5rS3JAzTNNgdBptQW6FUcBtfH9N164L_XDCAjjqmK7Ww?e=UzHBGI)
+![Reference Image](images/q1.png)
 
 Q2. Build a Component in React or Angular
     Objective: Develop a reusable component in React or Angular that displays a user profile with name, avatar, and a brief bio.
@@ -13,7 +13,7 @@ Q2. Build a Component in React or Angular
 
 Created a Profile card with edit modal
 
-![Reference Image](https://cygrp-my.sharepoint.com/:i:/g/personal/sayyed_ali_cginfinity_com/EZANQlrQ1ZBBtjj68Kr8ivABBZRDQ8B-VJrr_5YIY6o4FQ?e=gfkFjQ)
+![Reference Image](images/q2.png)
 
 Q3. Implement State Management with Redux or Context API
     Objective: Integrate a state management solution (Redux or Context API) into an existing React application to manage global state.
@@ -21,7 +21,7 @@ Q3. Implement State Management with Redux or Context API
 
 Used the #2 react app and created a usercontext using context api to handle user data including the updates.
 
-![Reference Image](https://cygrp-my.sharepoint.com/:i:/g/personal/sayyed_ali_cginfinity_com/EbZuJTg3dwJDqF4QQFUrurcBKS7NUtTW7asKgZFqlxZ1mQ?e=PyKVau)
+![Reference Image](images/q3.png)
 
 Q4. Write Unit Tests for a Component or Service
     Objective: Write unit tests for a React or Angular component or service to ensure it functions correctly.
@@ -37,4 +37,4 @@ created the .env file to fetch the api url. Sent that data to a component and di
 
 I also applied the pagination logic.
 
-![Reference Image]()
+![Reference Image](images/q5.png)
